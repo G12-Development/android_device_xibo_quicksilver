@@ -19,7 +19,8 @@ TARGET_BOOTLOADER_BOARD_NAME := quicksilver
 TARGET_DTB_NAME := g12b_a311d_w200_dscs9x
 
 # GPU
-TARGET_AMLOGIC_GPU_ARCH := midgard
+TARGET_AMLOGIC_GPU_ARCH := bifrost
+MALI_DRV_VERSION := r16p0
 
 # Kernel
 BOARD_KERNEL_CMDLINE += --cmdline "root=/dev/mmcblk0p18"
