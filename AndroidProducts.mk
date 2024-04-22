@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_hertz.mk
+    $(LOCAL_DIR)/lineage_quicksilver.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_hertz-eng \
-    lineage_hertz-user \
-    lineage_hertz-userdebug
+    lineage_quicksilver-eng \
+    lineage_quicksilver-user \
+    lineage_quicksilver-userdebug

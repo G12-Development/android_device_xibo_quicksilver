@@ -1,4 +1,3 @@
-#
 # Copyright (C) 2021-2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
@@ -11,7 +10,7 @@ PRODUCT_HOST_PACKAGES += \
 ## Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 PRODUCT_PACKAGES += \
-    HertzBluetoothOverlay \
+    QuicksilverBluetoothOverlay \
     libbt-vendor
 
 ## Init-Files
@@ -25,7 +24,7 @@ PRODUCT_PACKAGES += \
     dhd
 
 # Platform
-TARGET_AMLOGIC_SOC := gxm
+TARGET_AMLOGIC_SOC := g12b
 
 ## Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -35,4 +34,4 @@ DEVICE_PACKAGE_OVERLAYS += \
 TARGET_HAS_TEE := false
 
 $(call inherit-product, device/amlogic/gx-common/gx.mk)
-$(call inherit-product, vendor/amlogic/hertz/hertz-vendor.mk)
+$(call inherit-product, vendor/xibo/quicksilver/quicksilver-vendor.mk)

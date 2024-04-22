@@ -14,12 +14,12 @@ $(call inherit-product, vendor/lineage/config/common_full_tv.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_BRAND := DroidLogic
-PRODUCT_DEVICE := hertz
-PRODUCT_GMS_CLIENTID_BASE := android-askey-tv
-PRODUCT_MANUFACTURER := DroidLogic
-PRODUCT_MODEL := hertz
-PRODUCT_NAME := lineage_hertz
+PRODUCT_BRAND := Xibo
+PRODUCT_DEVICE := quicksilver
+PRODUCT_GMS_CLIENTID_BASE := android-droid-tv
+PRODUCT_MANUFACTURER := Xibo
+PRODUCT_MODEL := DSCS9X
+PRODUCT_NAME := lineage_quicksilver
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=adt3 \
