@@ -8,10 +8,11 @@
 
 set -e
 
-export DEVICE=hertz
+export DEVICE=quicksilver
 export DEVICE_COMMON=gx-common
 export VENDOR_COMMON=amlogic
-export VENDOR_DEVICE=amlogic
-export TARGET_SOC=gxm
+export VENDOR_DEVICE=xibo
+export VENDOR=xibo
+export TARGET_SOC=g12b
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"

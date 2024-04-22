@@ -4,19 +4,19 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/amlogic/hertz
+DEVICE_PATH := device/xibo/quicksilver
 
 ## Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
-BOARD_CUSTOM_BT_CONFIG := $(DEVICE_PATH)/bluetooth/vnd_amlogic_lpm.txt
+BOARD_CUSTOM_BT_CONFIG := $(DEVICE_PATH)/bluetooth/vnd_quicksilver_lpm.txt
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 ## Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := hertz
+TARGET_BOOTLOADER_BOARD_NAME := quicksilver
 
 ## DTB
-TARGET_DTB_NAME := hertz_3g
+TARGET_DTB_NAME := quicksilver_3g
 
 # GPU
 TARGET_AMLOGIC_GPU_ARCH := midgard
@@ -28,8 +28,8 @@ BOARD_KERNEL_CMDLINE += --cmdline "root=/dev/mmcblk0p18"
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # SOC
-TARGET_AMLOGIC_SOC := gxm
-TARGET_BOARD_PLATFORM := gxm
+TARGET_AMLOGIC_SOC := g12b
+TARGET_BOARD_PLATFORM := g12b
 
 ## Wi-Fi
 BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_bcmdhd
@@ -45,4 +45,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 ## Include the common tree BoardConfig makefile
 include device/amlogic/gx-common/BoardConfigCommon.mk
 
-include vendor/amlogic/hertz/BoardConfigVendor.mk
+include vendor/xibo/quicksilver/BoardConfigVendor.mk
