@@ -16,7 +16,7 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 TARGET_BOOTLOADER_BOARD_NAME := quicksilver
 
 ## DTB
-TARGET_DTB_NAME := quicksilver_3g
+TARGET_DTB_NAME := g12b_a311d_w200_dscs9x
 
 # GPU
 TARGET_AMLOGIC_GPU_ARCH := midgard
