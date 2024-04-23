@@ -11,5 +11,6 @@ include $(call all-makefiles-under,$(LOCAL_PATH))
 
 include $(LOCAL_PATH)/factory.mk
 
+-include vendor/xibo/quicksilver/firmware.mk
 
 endif
