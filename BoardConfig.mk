@@ -23,7 +23,7 @@ TARGET_AMLOGIC_GPU_ARCH := bifrost
 MALI_DRV_VERSION := r16p0
 
 # Kernel
-BOARD_KERNEL_CMDLINE += --cmdline "root=/dev/mmcblk0p18"
+BOARD_KERNEL_CMDLINE += --cmdline "root=/dev/mmcblk0p18" use_uvm=1
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
