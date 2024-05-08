@@ -31,8 +31,5 @@ TARGET_USES_P_MODULES := true
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-## TEE
-TARGET_HAS_TEE := false
-
 $(call inherit-product, device/amlogic/gx-common/gx.mk)
 $(call inherit-product, vendor/xibo/quicksilver/quicksilver-vendor.mk)
