@@ -14,6 +14,9 @@ vendor/lib/teetz/e043cde0-61d0-11e5-9c260002a5d5c51b.ta
 vendor/lib/teetz/e92a43ab-b4c8-4450-aa12b1516259613b.ta
 vendor/lib/teetz/ff2a4bea-ef6d-11e6-89ccd4ae52a7b3b3.ta
 
+# systemcontrol
+vendor/lib/liboptimization.so
+
 # Wifi
 vendor/etc/wifi/6255/config.txt
 vendor/etc/wifi/6255/fw_bcm43455c0_ag.bin
