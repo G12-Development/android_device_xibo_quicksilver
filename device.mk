@@ -23,6 +23,10 @@ TARGET_DHD_VERSION := bcmdhd.100.10.545.x
 PRODUCT_PACKAGES += \
     dhd
 
+## Media
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml
+
 # Platform
 TARGET_AMLOGIC_SOC := g12b
 TARGET_USES_P_MODULES := true
