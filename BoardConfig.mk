@@ -23,8 +23,11 @@ TARGET_AMLOGIC_GPU_ARCH := bifrost
 MALI_DRV_VERSION := r16p0
 
 # Kernel
-TARGET_KERNEL_CONFIG += meson64_variant_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := g12_variant_defconfig
 BOARD_KERNEL_CMDLINE += --cmdline "root=/dev/mmcblk0p18"
+
+## Media
+TARGET_IGNORES_ACODEC_ALLOC_FATAL += true
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
