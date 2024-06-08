@@ -1,0 +1,4 @@
+allow system_control cri_data_block_device:blk_file rw_file_perms;
+allow system_control system_app:binder call;
+allow system_control self:capability net_admin;
+get_prop(system_control, persist_display_prop)

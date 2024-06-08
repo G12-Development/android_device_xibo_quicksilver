@@ -1,0 +1,5 @@
+allow hal_graphics_allocator_default sysfs_graphics_device:file { open rw_file_perms };
+
+get_prop(hal_graphics_allocator_client, media_prop)
+get_prop(hal_graphics_allocator_default, media_prop)
+get_prop(hal_graphics_allocator_default, persist_display_prop)

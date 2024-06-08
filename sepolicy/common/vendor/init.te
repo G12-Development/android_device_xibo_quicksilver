@@ -1,0 +1,4 @@
+set_prop(init, vendor_usb_prop)
+set_prop(init, media_prop)
+set_prop(init, bluetooth_prop)
+set_prop(init, persist_display_prop)
