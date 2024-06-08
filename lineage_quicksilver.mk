@@ -10,6 +10,9 @@ $(call inherit-product, device/google/atv/products/atv_base.mk)
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_tv.mk)
 
+# Inherit Xibo vendor config
+$(call inherit-product, vendor/xibo/os/config.mk)
+
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
