@@ -1,2 +1,0 @@
-# Display
-sys.lcd.exist            u:object_r:persist_display_prop:s0

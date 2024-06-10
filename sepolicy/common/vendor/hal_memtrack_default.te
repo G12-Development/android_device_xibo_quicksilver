@@ -1,2 +1,0 @@
-allow hal_memtrack_default system_server:dir search;
-allow hal_memtrack_default system_server:file { r_file_perms getattr };

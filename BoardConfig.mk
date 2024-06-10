@@ -50,5 +50,5 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 
 ## Include the common tree BoardConfig makefile
 include device/amlogic/gx-common/BoardConfigCommon.mk
-include device/xibo/quicksilver/sepolicy/sepolicy.mk
+
 include vendor/xibo/quicksilver/BoardConfigVendor.mk

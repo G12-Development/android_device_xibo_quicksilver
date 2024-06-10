@@ -1,9 +1,0 @@
-allow system_app sysfs_extcon:dir read;
-allow system_app system_control:binder { call transfer };
-
-# Below this comment, those policies hit neverallow rules
-allow system_app systemcontrol_hwservice:hwservice_manager { find };
-allow system_app system_suspend_control_service:service_manager find;
-allow system_app system_suspend_control_internal_service:service_manager find;
-
-set_prop(system_app, vendor_media_prop)

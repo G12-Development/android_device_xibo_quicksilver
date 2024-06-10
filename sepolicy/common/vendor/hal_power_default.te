@@ -1,2 +1,0 @@
-allow hal_power_default hdmicecd_hwservice:hwservice_manager find;
-allow hal_power_default hdmicecd:binder call;
