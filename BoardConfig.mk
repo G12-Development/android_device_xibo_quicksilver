@@ -29,6 +29,8 @@ BOARD_KERNEL_CMDLINE += androidboot.boot_devices=ffe07000.emmc --cmdline "root=/
 ## Media
 TARGET_IGNORES_ACODEC_ALLOC_FATAL += true
 
+BOARD_VENDOR_SEPOLICY_DIRS += device/xibo/quicksilver/sepolicy/vendor
+
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
