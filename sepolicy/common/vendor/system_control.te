@@ -1,0 +1,1 @@
+allow system_control system_app:binder call;
