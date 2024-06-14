@@ -15,7 +15,9 @@ PRODUCT_PACKAGES += \
 
 ## Init-Files
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
+    $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc \
+    $(LOCAL_PATH)/init-files/systemcontrol_quicksilver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/systemcontrol_quicksilver.rc
+
 
 ## Kernel Modules
 TARGET_DHD_VERSION := bcmdhd.100.10.545.x
