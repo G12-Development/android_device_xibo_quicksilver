@@ -24,7 +24,7 @@ MALI_DRV_VERSION := r16p0
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := g12_variant_defconfig
-BOARD_KERNEL_CMDLINE += androidboot.boot_devices=ffe07000.emmc --cmdline "root=/dev/mmcblk0p18"
+BOARD_KERNEL_CMDLINE += androidboot.boot_devices=ffe07000.emmc --cmdline "root=/dev/mmcblk0p18" androidboot.selinux="enforcing"
 
 ## Media
 TARGET_IGNORES_ACODEC_ALLOC_FATAL += true
