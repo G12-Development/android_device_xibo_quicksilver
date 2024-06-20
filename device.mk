@@ -3,6 +3,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+PRODUCT_PACKAGES += \
+    android.hardware.health-service.quicksilver_nobatt \
+    android.hardware.health-service.quicksilver_nobatt_recovery
+
 ## Factory
 PRODUCT_HOST_PACKAGES += \
     aml_image_packer
